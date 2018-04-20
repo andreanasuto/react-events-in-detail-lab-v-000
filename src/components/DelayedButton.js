@@ -3,7 +3,10 @@ import React from 'react'
 
 export default class DelayedButton extends React.Component {
   onDelayedClick = function (event) {
-
+    var array = []
+    array.push(event.pageX)
+    array.push(event.pageY)
+    return array
   }
 
   delay = {this.props.delay}
