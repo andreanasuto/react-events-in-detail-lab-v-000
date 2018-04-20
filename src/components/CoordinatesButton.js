@@ -3,7 +3,8 @@ import React from 'react'
 
 class CoordinatesButton extends React.Component {
 
-  onReceiveCoordinates = function (event) {
+  handleClick = function (event) {
+    this.onReceiveCoordinates([event.pageX, event.pageY])
     var array = []
     array.push(event.pageX)
     array.push(event.pageY)
@@ -12,7 +13,7 @@ class CoordinatesButton extends React.Component {
 
   render () {
     return (
-      <button onClick={this.onReceiveCoordinates}> </button>
+      <button onClick={this.handleClick}> </button>
     )
   }
 }
