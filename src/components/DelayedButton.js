@@ -2,13 +2,12 @@
 import React from 'react'
 
 export default class DelayedButton extends React.Component {
-  constructor() {
-
+  onDelayedClick = function (event) {
+    
   }
-
   render () {
     return (
-      
+
     )
   }
 }
