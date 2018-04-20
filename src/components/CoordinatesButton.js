@@ -3,7 +3,7 @@ import React from 'react'
 
 class CoordinatesButton extends React.Component {
 
-  this.onReceiveCoordinates = function (event) {
+  onReceiveCoordinates = function (event) {
     var array = []
     array.push(event.pageX)
     array.push(event.pageY)
