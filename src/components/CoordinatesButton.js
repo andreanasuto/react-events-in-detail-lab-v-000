@@ -4,7 +4,10 @@ import React from 'react'
 class CoordinatesButton extends React.Component {
   render () {
     return (
-      
+      hello
     )
   }
 }
+
+
+export default CoordinatesButton
