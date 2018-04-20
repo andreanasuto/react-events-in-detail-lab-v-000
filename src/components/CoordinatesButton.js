@@ -4,7 +4,7 @@ import React from 'react'
 class CoordinatesButton extends React.Component {
 
   handleClick = function (event) {
-    this.onReceiveCoordinates([event.pageX, event.pageY])
+    this.props.onReceiveCoordinates([event.pageX, event.pageY])
   }
 
   render () {
