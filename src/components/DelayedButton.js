@@ -5,4 +5,10 @@ export default class DelayedButton extends React.Component {
   constructor() {
 
   }
+
+  render () {
+    return (
+      
+    )
+  }
 }
