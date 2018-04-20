@@ -3,7 +3,7 @@ import React from 'react'
 
 export default class DelayedButton extends React.Component {
   onDelayedClick = function (event) {
-    return a sort
+    return 'a sort'
   }
 
   delay = {this.props.delay}
