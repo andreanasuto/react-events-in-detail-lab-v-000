@@ -5,10 +5,6 @@ class CoordinatesButton extends React.Component {
 
   handleClick = function (event) {
     this.onReceiveCoordinates([event.pageX, event.pageY])
-    var array = []
-    array.push(event.pageX)
-    array.push(event.pageY)
-    return array
   }
 
   render () {
