@@ -6,8 +6,6 @@ export default class DelayedButton extends React.Component {
     return 'a sort'
   }
 
-  delay = {this.props.delay}
-
   render () {
     return (
       <button onClick={this.onDelayedClick}> </button>
