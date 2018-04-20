@@ -4,11 +4,11 @@ import React from 'react'
 class CoordinatesButton extends React.Component {
 
   this.props.onReceiveCoordinates = function () {
-
+    event.
   }
   render () {
     return (
-      hello
+      <button> </button>
     )
   }
 }
